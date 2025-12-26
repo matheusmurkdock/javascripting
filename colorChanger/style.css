@@ -1,0 +1,15 @@
+html {
+  background-color: darkgray;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.btn {
+  color: black;
+}
