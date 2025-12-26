@@ -1,6 +1,15 @@
+.bg {
+  height: 100%;
+  background-image: url("yono.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 h1 {
   text-align: center;
-  font-family: "Helvetica";
+  font-size: 40px;
+  font-family: "Monaco";
 }
 
 .num {
@@ -9,11 +18,13 @@ h1 {
   background-color: lightblue;
   width: 300px;
   height: 300px;
-  border: 2px solid black;
+  border: 13px;
+  border-style: outset;
   justify-content: center;
   align-items: center;
-  font-family: "Times New Roman";
+  font-family: "Monaco";
   font-size: 200px;
+
 }
 
 .btn-global {
@@ -25,8 +36,35 @@ h1 {
   justify-content: space-evenly;
 }
 
+#btn-1 {
+  font-size: 15px;
+  font-family: "Monaco";
+  color: white;
+  background-color: green;
+  border: 4px;
+  border-style: outset;
+}
+
+#btn-2 {
+  font-size: 15px;
+  font-family: "Monaco";
+  color: black;
+  background-color: lightgreen;
+  border: 4px;
+  border-style: outset;
+}
+
+#btn-3 {
+  font-size: 15px;
+  font-family: "Monaco";
+  color: black;
+  background-color: lightpink;
+  border: 4px;
+  border-style: outset;
+}
 .cont-reset {
   text-align: center;
-  font-family: "Helvetica";
+  font-size: 20px;
+  font-family: "Monaco";
   color : red;
 }
