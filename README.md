@@ -2,7 +2,8 @@
 
 # 1. Basic Counter 
 
-<img src="/img/basicCounter.png" alt="basicCounter.png">
+<img src="/imgs/basicCounter.png" alt="basicCounter.png">
+
 Used Things:
 - CSS Flexbox
 - Javascript Event Listener
