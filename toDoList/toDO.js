@@ -2,10 +2,10 @@
 const addBtn = document.querySelector("#add-btn")
 console.log(addBtn)
 
-const editBtn = document.querySelector(".edit-task-btn")
+var editBtn = document.getElementsByClassName("edit-task-btn")
 console.log(editBtn)
 
-const delBtn = document.querySelector(".delete-task-btn")
+var delBtn = document.getElementsByClassName("delete-task-btn")
 console.log(delBtn)
 
 const arrTasks = [
@@ -53,8 +53,9 @@ addBtn.addEventListener("click", function() {
   remaintask.textContent = numes;
 })
 
-delBtn.addEventListener("click", function() {
-  arrTasks.pop();
-})
-
+$(".delete-task-btn").click(function(){
+  console.log($(this))
+  console.log("btn was pressed")
+});
+console.log(delBtn.valueOf())
 
