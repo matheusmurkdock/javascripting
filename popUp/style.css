@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vh;
+  height: 90vh;
+  margin: auto;
+}
+
+#click-me {
+  position: fixed;
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+  height: 40px;
+  border: 4px solid black;
+  border-top: none;
+  border-left: none;
+  background-color: dodgerblue;
+  font-family: "Monaco";
+  border-radius: 8px;
+}
+
+.btn {
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  border: 4px solid black;
+  border-top: none;
+  border-left: none;
+  background-color: red;
+  font-family: "Courier New";
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#popup-container {
+  display: none;
+  height: auto;
+  width: auto;
+  font-family: "Courier New";
+  z-index: 1;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  background-color: floralwhite;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px;
+  justify-content: center;
+}
