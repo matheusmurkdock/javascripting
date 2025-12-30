@@ -41,7 +41,7 @@ Used Things:
 
 # 5. Calculator App
 
-<img src="/imgs/calculator.png" alt="calculator.png">
+<img src="/imgs/calculatorApp.gif" alt="calculatorApp.gif">
 
 <a href="https://calculator-app-kunalkokande.netlify.app/" target="_blank">Click Me</a>
 
